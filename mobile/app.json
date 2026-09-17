@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "PlantKey",
+    "slug": "plantkey",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F5F0E6",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.plantkey.app"
+    },
+    "android": {
+      "package": "com.plantkey.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F5F0E6",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "PlantKey uses the camera to photograph plants for identification.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "PlantKey needs access to your photos so you can identify a plant from an existing picture."
+        }
+      ]
+    ]
+  }
+}

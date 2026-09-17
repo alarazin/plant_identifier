@@ -1,0 +1,146 @@
+[
+  {
+    "model": "gemini-2-5-flash",
+    "n": 40,
+    "completed": 37,
+    "parse_failures": 0,
+    "api_errors": 3,
+    "top1_species_pct": 75.7,
+    "top3_species_pct": 78.4,
+    "top1_genus_pct": 83.8,
+    "top3_genus_pct": 83.8,
+    "top1_family_pct": 91.9,
+    "fabricated_any_pct": 0.0,
+    "abstained_pct": 0.0,
+    "p50_predict_s": 2.24,
+    "cost_per_1000_usd": 0.779,
+    "by_tier": {
+      "confusable": {
+        "n": 9,
+        "top1_species_pct": 55.6,
+        "top3_species_pct": 66.7,
+        "top1_genus_pct": 88.9
+      },
+      "easy": {
+        "n": 13,
+        "top1_species_pct": 100.0,
+        "top3_species_pct": 100.0,
+        "top1_genus_pct": 100.0
+      },
+      "grass": {
+        "n": 4,
+        "top1_species_pct": 25.0,
+        "top3_species_pct": 25.0,
+        "top1_genus_pct": 25.0
+      },
+      "toxic": {
+        "n": 6,
+        "top1_species_pct": 66.7,
+        "top3_species_pct": 66.7,
+        "top1_genus_pct": 66.7
+      },
+      "tree": {
+        "n": 5,
+        "top1_species_pct": 100.0,
+        "top3_species_pct": 100.0,
+        "top1_genus_pct": 100.0
+      }
+    }
+  },
+  {
+    "model": "gemini-2-0-flash-lite",
+    "n": 40,
+    "completed": 31,
+    "parse_failures": 9,
+    "api_errors": 0,
+    "top1_species_pct": 71.0,
+    "top3_species_pct": 77.4,
+    "top1_genus_pct": 80.6,
+    "top3_genus_pct": 83.9,
+    "top1_family_pct": 90.3,
+    "fabricated_any_pct": 0.0,
+    "abstained_pct": 0.0,
+    "p50_predict_s": 1.64,
+    "cost_per_1000_usd": 0.19,
+    "by_tier": {
+      "confusable": {
+        "n": 7,
+        "top1_species_pct": 28.6,
+        "top3_species_pct": 42.9,
+        "top1_genus_pct": 57.1
+      },
+      "easy": {
+        "n": 12,
+        "top1_species_pct": 100.0,
+        "top3_species_pct": 100.0,
+        "top1_genus_pct": 100.0
+      },
+      "grass": {
+        "n": 2,
+        "top1_species_pct": 0.0,
+        "top3_species_pct": 50.0,
+        "top1_genus_pct": 50.0
+      },
+      "toxic": {
+        "n": 5,
+        "top1_species_pct": 60.0,
+        "top3_species_pct": 60.0,
+        "top1_genus_pct": 60.0
+      },
+      "tree": {
+        "n": 5,
+        "top1_species_pct": 100.0,
+        "top3_species_pct": 100.0,
+        "top1_genus_pct": 100.0
+      }
+    }
+  },
+  {
+    "model": "gpt-4.1-mini",
+    "n": 40,
+    "completed": 40,
+    "parse_failures": 0,
+    "api_errors": 0,
+    "top1_species_pct": 62.5,
+    "top3_species_pct": 65.0,
+    "top1_genus_pct": 72.5,
+    "top3_genus_pct": 75.0,
+    "top1_family_pct": 92.5,
+    "fabricated_any_pct": 2.5,
+    "abstained_pct": 2.5,
+    "p50_predict_s": 5.63,
+    "cost_per_1000_usd": 1.004,
+    "by_tier": {
+      "confusable": {
+        "n": 9,
+        "top1_species_pct": 33.3,
+        "top3_species_pct": 44.4,
+        "top1_genus_pct": 66.7
+      },
+      "easy": {
+        "n": 16,
+        "top1_species_pct": 75.0,
+        "top3_species_pct": 75.0,
+        "top1_genus_pct": 81.2
+      },
+      "grass": {
+        "n": 4,
+        "top1_species_pct": 25.0,
+        "top3_species_pct": 25.0,
+        "top1_genus_pct": 25.0
+      },
+      "toxic": {
+        "n": 6,
+        "top1_species_pct": 66.7,
+        "top3_species_pct": 66.7,
+        "top1_genus_pct": 66.7
+      },
+      "tree": {
+        "n": 5,
+        "top1_species_pct": 100.0,
+        "top3_species_pct": 100.0,
+        "top1_genus_pct": 100.0
+      }
+    }
+  }
+]

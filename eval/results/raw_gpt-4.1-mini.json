@@ -1,0 +1,2512 @@
+[
+  {
+    "filename": "monstera_deliciosa.jpg",
+    "truth": "Monstera deliciosa",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Swiss Cheese Plant",
+        "scientific_name": "Monstera deliciosa",
+        "genus": "Monstera",
+        "family": "Araceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "Large glossy green leaves with deep fenestrations (holes and splits)"
+        ]
+      },
+      {
+        "common_name": "Split-leaf Philodendron",
+        "scientific_name": "Monstera deliciosa",
+        "genus": "Monstera",
+        "family": "Araceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "Heart-shaped leaves with characteristic perforations and splits"
+        ]
+      }
+    ],
+    "cost": 0.00096054,
+    "predict_time": 4.9792819999999995,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 2,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Monstera deliciosa"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Monstera deliciosa"
+      }
+    ],
+    "elapsed_s": 6.15
+  },
+  {
+    "filename": "ficus_lyrata.jpg",
+    "truth": "Ficus lyrata",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Fiddle Leaf Fig",
+        "scientific_name": "Ficus lyrata",
+        "genus": "Ficus",
+        "family": "Moraceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "large, broad, leathery leaves",
+          "prominent veins with a lyre-like shape",
+          "leaves have a glossy texture and wavy margins"
+        ]
+      },
+      {
+        "common_name": "Rubber Plant",
+        "scientific_name": "Ficus elastica",
+        "genus": "Ficus",
+        "family": "Moraceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "large, glossy leaves",
+          "prominent central vein",
+          "oval to elliptical leaf shape"
+        ]
+      },
+      {
+        "common_name": "Laurel Fig",
+        "scientific_name": "Ficus altissima",
+        "genus": "Ficus",
+        "family": "Moraceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "large leaves with prominent veins",
+          "leaves slightly glossy"
+        ]
+      }
+    ],
+    "cost": 0.0011163599999999998,
+    "predict_time": 8.762054,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Ficus lyrata"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Ficus elastica"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Ficus altissima"
+      }
+    ],
+    "elapsed_s": 11.05
+  },
+  {
+    "filename": "dracaena_trifasciata.jpg",
+    "truth": "Dracaena trifasciata",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Snake Plant",
+        "scientific_name": "Sansevieria trifasciata",
+        "genus": "Sansevieria",
+        "family": "Asparagaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "upright, sword-shaped leaves",
+          "green leaves with horizontal banding or mottled patterns",
+          "leaves grow from base in a rosette pattern"
+        ]
+      }
+    ],
+    "cost": 0.00100254,
+    "predict_time": 5.671292,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Sansevieria trifasciata"
+      }
+    ],
+    "elapsed_s": 12.54
+  },
+  {
+    "filename": "zamioculcas_zamiifolia.jpg",
+    "truth": "Zamioculcas zamiifolia",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "ZZ Plant",
+        "scientific_name": "Zamioculcas zamiifolia",
+        "genus": "Zamioculcas",
+        "family": "Araceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "thick, waxy, glossy, dark green leaflets",
+          "pinnate compound leaf arrangement",
+          "thick, fleshy stem"
+        ]
+      }
+    ],
+    "cost": 0.0008996399999999999,
+    "predict_time": 6.001792,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Zamioculcas zamiifolia"
+      }
+    ],
+    "elapsed_s": 18.31
+  },
+  {
+    "filename": "chlorophytum_comosum.jpg",
+    "truth": "Chlorophytum comosum",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Spider Plant",
+        "scientific_name": "Chlorophytum comosum",
+        "genus": "Chlorophytum",
+        "family": "Asparagaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "long, narrow leaves with white stripes along the center",
+          "arching flower stalk with small white star-shaped flowers",
+          "yellow anthers on stamens"
+        ]
+      }
+    ],
+    "cost": 0.00088494,
+    "predict_time": 3.518523,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Chlorophytum comosum"
+      }
+    ],
+    "elapsed_s": 16.64
+  },
+  {
+    "filename": "spathiphyllum_wallisii.jpg",
+    "truth": "Spathiphyllum wallisii",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Peace Lily",
+        "scientific_name": "Spathiphyllum wallisii",
+        "genus": "Spathiphyllum",
+        "family": "Araceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "white spathe surrounding a white spadix",
+          "large, glossy oval dark green leaves",
+          "flower structure typical of Araceae"
+        ]
+      },
+      {
+        "common_name": "Anthurium",
+        "scientific_name": "Anthurium andraeanum",
+        "genus": "Anthurium",
+        "family": "Araceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "white spathe and spadix present",
+          "similar leaf shape but generally more leathery than Spathiphyllum"
+        ]
+      },
+      {
+        "common_name": "uncertain",
+        "scientific_name": "Spathiphyllum uncertain",
+        "genus": "Spathiphyllum",
+        "family": "Araceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "white spathe and spadix, large green leaves with visible venation"
+        ]
+      }
+    ],
+    "cost": 0.00120834,
+    "predict_time": 7.260228,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Spathiphyllum wallisii"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Anthurium andraeanum"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Spathiphyllum"
+      }
+    ],
+    "elapsed_s": 26.3
+  },
+  {
+    "filename": "aloe_vera.jpg",
+    "truth": "Aloe vera",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Aloe",
+        "scientific_name": "uncertain",
+        "genus": "Aloe",
+        "family": "Asphodelaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "succulent rosette leaves with serrated margins",
+          "tall flower spikes densely packed with tubular yellow flowers",
+          "plants growing in a field pattern"
+        ]
+      }
+    ],
+    "cost": 0.00096138,
+    "predict_time": 5.668095,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": true,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": true,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true
+      }
+    ],
+    "elapsed_s": 24.6
+  },
+  {
+    "filename": "crassula_ovata.jpg",
+    "truth": "Crassula ovata",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Jade Plant",
+        "scientific_name": "Crassula ovata",
+        "genus": "Crassula",
+        "family": "Crassulaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "succulent, thick, rounded leaves with smooth margins",
+          "woody, thick stems",
+          "compact, bushy habit",
+          "green leaves with a slight reddish tint on edges"
+        ]
+      }
+    ],
+    "cost": 0.0009618,
+    "predict_time": 5.22638,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Crassula ovata"
+      }
+    ],
+    "elapsed_s": 30.92
+  },
+  {
+    "filename": "helianthus_annuus.jpg",
+    "truth": "Helianthus annuus",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Sunflower",
+        "scientific_name": "Helianthus annuus",
+        "genus": "Helianthus",
+        "family": "Asteraceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "Large bright yellow ray florets",
+          "Distinct central disk composed of spirally arranged tiny florets",
+          "Broad green bracts visible behind the flower head",
+          "Symmetrical, large composite flower head typical of sunflowers"
+        ]
+      }
+    ],
+    "cost": 0.0007811999999999999,
+    "predict_time": 3.868244,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Helianthus annuus"
+      }
+    ],
+    "elapsed_s": 31.34
+  },
+  {
+    "filename": "lavandula_angustifolia.jpg",
+    "truth": "Lavandula angustifolia",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "English Lavender",
+        "scientific_name": "Lavandula angustifolia",
+        "genus": "Lavandula",
+        "family": "Lamiaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "spikes of violet-blue flowers",
+          "narrow, lance-shaped green leaves",
+          "flowers arranged in whorls on long slender stems"
+        ]
+      },
+      {
+        "common_name": "French Lavender",
+        "scientific_name": "Lavandula dentata",
+        "genus": "Lavandula",
+        "family": "Lamiaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "violet flower spikes",
+          "long narrow leaves possibly serrated (not fully visible)",
+          "flowers on slender stalks"
+        ]
+      },
+      {
+        "common_name": "Spanish Lavender",
+        "scientific_name": "Lavandula stoechas",
+        "genus": "Lavandula",
+        "family": "Lamiaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "violet flower spikes",
+          "slender stems",
+          "flower clusters distinctive but not fully visible to confirm bracts"
+        ]
+      }
+    ],
+    "cost": 0.00120498,
+    "predict_time": 9.068892,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Lavandula angustifolia"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Lavandula dentata"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Lavandula stoechas"
+      }
+    ],
+    "elapsed_s": 41.57
+  },
+  {
+    "filename": "bellis_perennis.jpg",
+    "truth": "Bellis perennis",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Oxeye Daisy",
+        "scientific_name": "Leucanthemum vulgare",
+        "genus": "Leucanthemum",
+        "family": "Asteraceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "White ray florets with bright yellow central disc florets",
+          "Leaves appear to be lobed and toothed",
+          "Flower heads borne singly on stems"
+        ]
+      },
+      {
+        "common_name": "Marguerite Daisy",
+        "scientific_name": "Argyranthemum frutescens",
+        "genus": "Argyranthemum",
+        "family": "Asteraceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "White ray florets and yellow disc florets similar to Oxeye Daisy",
+          "Leaves less lobed and more ovate compared to Leucanthemum",
+          "Clusters of flowers with green foliage beneath"
+        ]
+      },
+      {
+        "common_name": "Fleabane",
+        "scientific_name": "Erigeron species",
+        "genus": "Erigeron",
+        "family": "Asteraceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "Daisy-like flowers with yellow centers and numerous thin white petals",
+          "Leaves somewhat narrower and less broad than typical daisies"
+        ]
+      }
+    ],
+    "cost": 0.00116256,
+    "predict_time": 7.558975,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": false,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Leucanthemum vulgare"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Argyranthemum frutescens"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Erigeron"
+      }
+    ],
+    "elapsed_s": 40.88
+  },
+  {
+    "filename": "taraxacum_officinale.jpg",
+    "truth": "Taraxacum officinale",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Common Dandelion",
+        "scientific_name": "Taraxacum officinale",
+        "genus": "Taraxacum",
+        "family": "Asteraceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "bright yellow composite flower head with many narrow strap-shaped florets",
+          "toothed, lobed leaves visible at base",
+          "flower stalks without leaves"
+        ]
+      },
+      {
+        "common_name": "Cat's Ear",
+        "scientific_name": "Hypochaeris radicata",
+        "genus": "Hypochaeris",
+        "family": "Asteraceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "yellow composite flower resembling dandelion but usually with more branched stems",
+          "leaves less deeply lobed than dandelion"
+        ]
+      },
+      {
+        "common_name": "False Dandelion",
+        "scientific_name": "Leontodon autumnalis",
+        "genus": "Leontodon",
+        "family": "Asteraceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "yellow composite flower similar to dandelion, smaller flower heads",
+          "leaves with a more toothed margin than deeply lobed"
+        ]
+      }
+    ],
+    "cost": 0.00102648,
+    "predict_time": 8.276331,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Taraxacum officinale"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Hypochaeris radicata"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Leontodon autumnalis"
+      }
+    ],
+    "elapsed_s": 50.35
+  },
+  {
+    "filename": "hydrangea_macrophylla.jpg",
+    "truth": "Hydrangea macrophylla",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Hydrangea",
+        "scientific_name": "Hydrangea macrophylla",
+        "genus": "Hydrangea",
+        "family": "Hydrangeaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "Blue, lacecap type flower clusters with central fertile buds surrounded by larger sterile petals",
+          "Large, ovate leaves with serrated edges",
+          "Shrubby growth habit"
+        ]
+      }
+    ],
+    "cost": 0.00089334,
+    "predict_time": 5.572716,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Hydrangea macrophylla"
+      }
+    ],
+    "elapsed_s": 48.73
+  },
+  {
+    "filename": "papaver_rhoeas.jpg",
+    "truth": "Papaver rhoeas",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Common Poppy",
+        "scientific_name": "Papaver rhoeas",
+        "genus": "Papaver",
+        "family": "Papaveraceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "bright red petals",
+          "black center in the flowers",
+          "thin, hairy stems"
+        ]
+      },
+      {
+        "common_name": "Chamomile",
+        "scientific_name": "Matricaria chamomilla",
+        "genus": "Matricaria",
+        "family": "Asteraceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "small white petals surrounding yellow disc florets",
+          "numerous flowers on branching stems",
+          "finely divided leaves"
+        ]
+      },
+      {
+        "common_name": "Barley",
+        "scientific_name": "Hordeum vulgare",
+        "genus": "Hordeum",
+        "family": "Poaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "dense, long awns (bristle-like structures) on grain heads",
+          "grass-like leaves",
+          "yellowish-green grain heads in background"
+        ]
+      }
+    ],
+    "cost": 0.00120498,
+    "predict_time": 8.16924,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Papaver rhoeas"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": "Matricaria chamomilla"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": "Hordeum vulgare"
+      }
+    ],
+    "elapsed_s": 58.06
+  },
+  {
+    "filename": "digitalis_purpurea.jpg",
+    "truth": "Digitalis purpurea",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Bellflower",
+        "scientific_name": "Campanula latifolia",
+        "genus": "Campanula",
+        "family": "Campanulaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "Tall spike with multiple seed capsules",
+          "Each capsule surrounded by green calyx lobes",
+          "Seed capsules oval with fine curved appendages"
+        ]
+      },
+      {
+        "common_name": "Giant Bellflower",
+        "scientific_name": "Campanula rapunculoides",
+        "genus": "Campanula",
+        "family": "Campanulaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "Tall inflorescence spike",
+          "Green calyx lobes surrounding seed capsules",
+          "Curved dry appendages on old seed capsules"
+        ]
+      }
+    ],
+    "cost": 0.00105588,
+    "predict_time": 6.115299,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": false,
+    "top1_family": false,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 2,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": "Campanula latifolia"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": "Campanula rapunculoides"
+      }
+    ],
+    "elapsed_s": 57.33
+  },
+  {
+    "filename": "hedera_helix.jpg",
+    "truth": "Hedera helix",
+    "tier": "easy",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Fatsia",
+        "scientific_name": "Fatsia japonica",
+        "genus": "Fatsia",
+        "family": "Araliaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "green flower buds arranged in spherical umbels",
+          "small green flowers with yellow anthers",
+          "inflorescences in clusters on thick stems"
+        ]
+      }
+    ],
+    "cost": 0.0008883,
+    "predict_time": 4.933125,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": false,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Fatsia japonica"
+      }
+    ],
+    "elapsed_s": 63.41
+  },
+  {
+    "filename": "quercus_robur.jpg",
+    "truth": "Quercus robur",
+    "tier": "tree",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "too_far",
+    "candidates": [
+      {
+        "common_name": "English Oak",
+        "scientific_name": "Quercus robur",
+        "genus": "Quercus",
+        "family": "Fagaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "large broad crown",
+          "deciduous tree form",
+          "lobed leaf shape apparent from leaf mass texture"
+        ]
+      },
+      {
+        "common_name": "Sessile Oak",
+        "scientific_name": "Quercus petraea",
+        "genus": "Quercus",
+        "family": "Fagaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "large broad crown",
+          "deciduous tree form",
+          "similar lobed leaf shape and overall habit to English Oak"
+        ]
+      },
+      {
+        "common_name": "White Oak",
+        "scientific_name": "Quercus alba",
+        "genus": "Quercus",
+        "family": "Fagaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "large broad crown",
+          "deciduous tree, similar shape but leaf detail not visible to differentiate"
+        ]
+      }
+    ],
+    "cost": 0.00114702,
+    "predict_time": 5.99742,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Quercus robur"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Quercus petraea"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Quercus alba"
+      }
+    ],
+    "elapsed_s": 65.78
+  },
+  {
+    "filename": "acer_palmatum.jpg",
+    "truth": "Acer palmatum",
+    "tier": "tree",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Japanese Maple",
+        "scientific_name": "Acer palmatum",
+        "genus": "Acer",
+        "family": "Sapindaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "palmately lobed leaves with 5-7 pointed lobes",
+          "opposite leaf arrangement",
+          "paired samara fruit ('helicopter' seeds)"
+        ]
+      },
+      {
+        "common_name": "Red Maple",
+        "scientific_name": "Acer rubrum",
+        "genus": "Acer",
+        "family": "Sapindaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "palmately lobed leaves with 3-5 lobes (sometimes 7)",
+          "paired samara fruit",
+          "serrated leaf margins"
+        ]
+      },
+      {
+        "common_name": "Silver Maple",
+        "scientific_name": "Acer saccharinum",
+        "genus": "Acer",
+        "family": "Sapindaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "deeply lobed leaves (5 lobes) with pointed tips",
+          "paired samaras",
+          "leaf underside silvery (not visible)"
+        ]
+      }
+    ],
+    "cost": 0.0008404199999999999,
+    "predict_time": 6.415628,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Acer palmatum"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Acer rubrum"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Acer saccharinum"
+      }
+    ],
+    "elapsed_s": 71.04
+  },
+  {
+    "filename": "betula_pendula.jpg",
+    "truth": "Betula pendula",
+    "tier": "tree",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Weeping Birch",
+        "scientific_name": "Betula pendula 'Youngii'",
+        "genus": "Betula",
+        "family": "Betulaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "weeping habit with drooping branches",
+          "triangular to ovate leaves with serrated edges",
+          "white peeling bark typical of birches"
+        ]
+      },
+      {
+        "common_name": "Silver Birch",
+        "scientific_name": "Betula pendula",
+        "genus": "Betula",
+        "family": "Betulaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "triangular to ovate serrated leaves",
+          "white peeling bark",
+          "upright branches (though this image shows more weeping form, but could be cultivar variation)"
+        ]
+      }
+    ],
+    "cost": 0.001029,
+    "predict_time": 5.483041,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 2,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Betula pendula"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Betula pendula"
+      }
+    ],
+    "elapsed_s": 72.84
+  },
+  {
+    "filename": "olea_europaea.jpg",
+    "truth": "Olea europaea",
+    "tier": "tree",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Olive tree",
+        "scientific_name": "Olea europaea",
+        "genus": "Olea",
+        "family": "Oleaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "Tree with a gnarled trunk and spreading, irregular crown",
+          "Narrow, elongated leaves with a silvery-green color",
+          "Leaves appear to have a leathery texture",
+          "Typical Mediterranean dry stone terrace setting"
+        ]
+      }
+    ],
+    "cost": 0.0009050999999999999,
+    "predict_time": 5.157439,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Olea europaea"
+      }
+    ],
+    "elapsed_s": 77.03
+  },
+  {
+    "filename": "ginkgo_biloba.jpg",
+    "truth": "Ginkgo biloba",
+    "tier": "tree",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "too_far",
+    "candidates": [
+      {
+        "common_name": "Ginkgo",
+        "scientific_name": "Ginkgo biloba",
+        "genus": "Ginkgo",
+        "family": "Ginkgoaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "pyramidal to broadly spreading habit",
+          "dense foliage with a fine texture",
+          "branching pattern somewhat resembling Ginkgo but leaves not individually visible"
+        ]
+      },
+      {
+        "common_name": "European Hornbeam",
+        "scientific_name": "Carpinus betulus",
+        "genus": "Carpinus",
+        "family": "Betulaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "broad, dense tree crown",
+          "branching density visible but no clear leaf shape to confirm"
+        ]
+      },
+      {
+        "common_name": "American Beech",
+        "scientific_name": "Fagus grandifolia",
+        "genus": "Fagus",
+        "family": "Fagaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "dense foliage, tall straight trunk",
+          "habit matches some beech trees, but leaf details missing"
+        ]
+      }
+    ],
+    "cost": 0.00114324,
+    "predict_time": 7.964488,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Ginkgo biloba"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": "Carpinus betulus"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": "Fagus grandifolia"
+      }
+    ],
+    "elapsed_s": 81.61
+  },
+  {
+    "filename": "epipremnum_aureum.jpg",
+    "truth": "Epipremnum aureum",
+    "tier": "confusable",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Elephant Ear",
+        "scientific_name": "Alocasia macrorrhizos",
+        "genus": "Alocasia",
+        "family": "Araceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "Large, glossy, heart-shaped leaves",
+          "Prominent central vein with lateral veins",
+          "Leaves appear to arise from a thick stem/trunk base"
+        ]
+      },
+      {
+        "common_name": "Giant Taro",
+        "scientific_name": "Alocasia odora",
+        "genus": "Alocasia",
+        "family": "Araceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "Similar large, glossy heart-shaped leaves",
+          "Vein structure consistent with Alocasia genus",
+          "Leaves attached to a stout stem"
+        ]
+      },
+      {
+        "common_name": "Philodendron giganteum",
+        "scientific_name": "Philodendron giganteum",
+        "genus": "Philodendron",
+        "family": "Araceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "Large heart-shaped leaves",
+          "Glossy surface",
+          "Venation pattern similar but less prominent midrib"
+        ]
+      }
+    ],
+    "cost": 0.00115332,
+    "predict_time": 6.957363,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": false,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Alocasia macrorrhizos"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Alocasia odora"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Philodendron giganteum"
+      }
+    ],
+    "elapsed_s": 86.16
+  },
+  {
+    "filename": "philodendron_hederaceum.jpg",
+    "truth": "Philodendron hederaceum",
+    "tier": "confusable",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Elephant Ear",
+        "scientific_name": "Alocasia macrorrhizos",
+        "genus": "Alocasia",
+        "family": "Araceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "Large heart-shaped leaf",
+          "Smooth margin",
+          "Prominent central vein with radiating secondary veins"
+        ]
+      },
+      {
+        "common_name": "Giant Taro",
+        "scientific_name": "Colocasia esculenta",
+        "genus": "Colocasia",
+        "family": "Araceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "Large heart-shaped leaf",
+          "Smooth texture",
+          "Lobed base with glossy surface"
+        ]
+      },
+      {
+        "common_name": "Philodendron",
+        "scientific_name": "Philodendron bipinnatifidum",
+        "genus": "Philodendron",
+        "family": "Araceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "Heart-shaped leaf",
+          "Smooth margin",
+          "Prominent venation, but leaf appears too broad and simple for high confidence"
+        ]
+      }
+    ],
+    "cost": 0.00103656,
+    "predict_time": 5.600461,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Alocasia macrorrhizos"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Colocasia esculenta"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Philodendron bipinnatifidum"
+      }
+    ],
+    "elapsed_s": 88.04
+  },
+  {
+    "filename": "monstera_adansonii.jpg",
+    "truth": "Monstera adansonii",
+    "tier": "confusable",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Swiss cheese plant",
+        "scientific_name": "Monstera deliciosa",
+        "genus": "Monstera",
+        "family": "Araceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "large, glossy green leaves",
+          "deep oval fenestrations (holes) in leaves",
+          "prominent parallel venation",
+          "heart-shaped leaf base"
+        ]
+      }
+    ],
+    "cost": 0.00095172,
+    "predict_time": 5.348304,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Monstera deliciosa"
+      }
+    ],
+    "elapsed_s": 92.05
+  },
+  {
+    "filename": "echeveria_elegans.jpg",
+    "truth": "Echeveria elegans",
+    "tier": "confusable",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Echeveria",
+        "scientific_name": "Echeveria 'Perle von Nurnberg'",
+        "genus": "Echeveria",
+        "family": "Crassulaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "rosette shape with tight symmetrical leaf arrangement",
+          "thick fleshy succulent leaves",
+          "bluish-green coloration with pink tips",
+          "pointed leaf tips with slight red edging"
+        ]
+      }
+    ],
+    "cost": 0.00078288,
+    "predict_time": 3.946579,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Echeveria"
+      }
+    ],
+    "elapsed_s": 93.64
+  },
+  {
+    "filename": "sempervivum_tectorum.jpg",
+    "truth": "Sempervivum tectorum",
+    "tier": "confusable",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Hen and Chicks",
+        "scientific_name": "Sempervivum tectorum",
+        "genus": "Sempervivum",
+        "family": "Crassulaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "rosette cluster growth form",
+          "small succulent leaves with pointed tips",
+          "green color with some reddish tips",
+          "growing densely on soil around stone"
+        ]
+      }
+    ],
+    "cost": 0.00090972,
+    "predict_time": 4.854042,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Sempervivum tectorum"
+      }
+    ],
+    "elapsed_s": 98.29
+  },
+  {
+    "filename": "mentha_spicata.jpg",
+    "truth": "Mentha spicata",
+    "tier": "confusable",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Peppermint",
+        "scientific_name": "Mentha \u00d7 piperita",
+        "genus": "Mentha",
+        "family": "Lamiaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "square, reddish stem",
+          "whorled clusters of small purple flowers",
+          "toothed leaves with pointed tips"
+        ]
+      },
+      {
+        "common_name": "Spearmint",
+        "scientific_name": "Mentha spicata",
+        "genus": "Mentha",
+        "family": "Lamiaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "spiked clusters of small purple flowers",
+          "toothed leaves visible",
+          "square stem"
+        ]
+      }
+    ],
+    "cost": 0.00087318,
+    "predict_time": 5.631222,
+    "top1_species": false,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 2,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Mentha piperita"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Mentha spicata"
+      }
+    ],
+    "elapsed_s": 100.67
+  },
+  {
+    "filename": "melissa_officinalis.jpg",
+    "truth": "Melissa officinalis",
+    "tier": "confusable",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Lemon Balm",
+        "scientific_name": "Melissa officinalis",
+        "genus": "Melissa",
+        "family": "Lamiaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "opposite leaf arrangement",
+          "serrate leaf margins",
+          "wrinkled leaf surface",
+          "ovate leaves with pointed tip"
+        ]
+      },
+      {
+        "common_name": "Catnip",
+        "scientific_name": "Nepeta cataria",
+        "genus": "Nepeta",
+        "family": "Lamiaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "opposite leaf arrangement",
+          "serrate leaf margins",
+          "oval leaves with slightly toothed edges"
+        ]
+      },
+      {
+        "common_name": "Patchouli",
+        "scientific_name": "Pogostemon cablin",
+        "genus": "Pogostemon",
+        "family": "Lamiaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "serrate leaf margins",
+          "ovate to lanceolate leaves",
+          "wrinkled leaf texture"
+        ]
+      }
+    ],
+    "cost": 0.00111006,
+    "predict_time": 6.59139,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": true,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Melissa officinalis"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Nepeta cataria"
+      },
+      {
+        "abstained": false,
+        "fabricated": true,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": null
+      }
+    ],
+    "elapsed_s": 105.67
+  },
+  {
+    "filename": "petroselinum_crispum.jpg",
+    "truth": "Petroselinum crispum",
+    "tier": "confusable",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Coriander",
+        "scientific_name": "Coriandrum sativum",
+        "genus": "Coriandrum",
+        "family": "Apiaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "finely divided, delicate, flat green leaves",
+          "pinnate leaf structure with multiple lobes",
+          "thin green stems"
+        ]
+      }
+    ],
+    "cost": 0.0008946,
+    "predict_time": 4.478289,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": false,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Coriandrum sativum"
+      }
+    ],
+    "elapsed_s": 106.58
+  },
+  {
+    "filename": "coriandrum_sativum.jpg",
+    "truth": "Coriandrum sativum",
+    "tier": "confusable",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Coriander / Cilantro",
+        "scientific_name": "Coriandrum sativum",
+        "genus": "Coriandrum",
+        "family": "Apiaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "Bright green, flat, lobed, and serrated leaves",
+          "Leaves with delicate, fine segments and a slightly rounded overall shape",
+          "Thin, herbaceous stems visible"
+        ]
+      }
+    ],
+    "cost": 0.0008967,
+    "predict_time": 5.293716,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Coriandrum sativum"
+      }
+    ],
+    "elapsed_s": 112.74
+  },
+  {
+    "filename": "poa_annua.jpg",
+    "truth": "Poa annua",
+    "tier": "grass",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Common Bent Grass",
+        "scientific_name": "Agrostis capillaris",
+        "genus": "Agrostis",
+        "family": "Poaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "delicate, fine-textured inflorescences with slender branches",
+          "narrow, flat green leaves",
+          "clump-forming grass habit"
+        ]
+      },
+      {
+        "common_name": "Yorkshire Fog",
+        "scientific_name": "Holcus lanatus",
+        "genus": "Holcus",
+        "family": "Poaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "soft, fluffy inflorescences with a yellowish tone",
+          "leaf blades visible but less hairy texture evident",
+          "grass clump with upright flowering stems"
+        ]
+      }
+    ],
+    "cost": 0.0010227,
+    "predict_time": 5.400236,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": false,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 2,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Agrostis capillaris"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Holcus lanatus"
+      }
+    ],
+    "elapsed_s": 114.12
+  },
+  {
+    "filename": "festuca_rubra.jpg",
+    "truth": "Festuca rubra",
+    "tier": "grass",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "too_far",
+    "candidates": [
+      {
+        "common_name": "Tansy",
+        "scientific_name": "Tanacetum vulgare",
+        "genus": "Tanacetum",
+        "family": "Asteraceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "compound, deeply lobed leaves",
+          "cluster of small, button-like yellow flower heads",
+          "woody or herbaceous stem"
+        ]
+      },
+      {
+        "common_name": "Common Tansy",
+        "scientific_name": "Tanacetum vulgare",
+        "genus": "Tanacetum",
+        "family": "Asteraceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "dense flowering clusters",
+          "button-like yellow flowers",
+          "feather-like leaf division"
+        ]
+      }
+    ],
+    "cost": 0.00102228,
+    "predict_time": 6.085432,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": false,
+    "top1_family": false,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 2,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": "Tanacetum vulgare"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": "Tanacetum vulgare"
+      }
+    ],
+    "elapsed_s": 121.08
+  },
+  {
+    "filename": "cynodon_dactylon.jpg",
+    "truth": "Cynodon dactylon",
+    "tier": "grass",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Bristly Sedge",
+        "scientific_name": "Carex comosa",
+        "genus": "Carex",
+        "family": "Cyperaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "spikelets tightly clustered with overlapping scales",
+          "purple and green coloration on spikelets",
+          "bristle-like awns on some parts of the inflorescence"
+        ]
+      },
+      {
+        "common_name": "Purple Sedge",
+        "scientific_name": "Carex purpurea",
+        "genus": "Carex",
+        "family": "Cyperaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "purple-tinged spikelets",
+          "overlapping scales on the spikes"
+        ]
+      }
+    ],
+    "cost": 0.0010626,
+    "predict_time": 5.215724,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": false,
+    "top1_family": false,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 2,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": "Carex comosa"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false,
+        "resolved": "Carex purpurea"
+      }
+    ],
+    "elapsed_s": 120.25
+  },
+  {
+    "filename": "phragmites_australis.jpg",
+    "truth": "Phragmites australis",
+    "tier": "grass",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Common Reed",
+        "scientific_name": "Phragmites australis",
+        "genus": "Phragmites",
+        "family": "Poaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "tall, slender stems",
+          "large, feathery plumes (inflorescences) composed of many tiny spikelets",
+          "inflorescences golden brown and fluffy"
+        ]
+      },
+      {
+        "common_name": "Giant Reed",
+        "scientific_name": "Arundo donax",
+        "genus": "Arundo",
+        "family": "Poaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "tall reed-like grass",
+          "large feathery flowering heads similar to Phragmites but slightly more robust stems"
+        ]
+      },
+      {
+        "common_name": "Bulrush or Cattail (imprecise, likely incorrect but possible)",
+        "scientific_name": "uncertain",
+        "genus": "Typha or Scirpus",
+        "family": "Cyperaceae or Typhaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "tall grass-like habitat plant with flowering heads, but lacks the distinct dense cylindrical flower spikes typical of cattails; included due to similarity in wetland habitat but morphological features do not match well"
+        ]
+      }
+    ],
+    "cost": 0.00129738,
+    "predict_time": 8.987324,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Phragmites australis"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Arundo donax"
+      },
+      {
+        "abstained": true,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": false
+      }
+    ],
+    "elapsed_s": 130.56
+  },
+  {
+    "filename": "nerium_oleander.jpg",
+    "truth": "Nerium oleander",
+    "tier": "toxic",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Oleander",
+        "scientific_name": "Nerium oleander",
+        "genus": "Nerium",
+        "family": "Apocynaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "pink flower with five broad petals",
+          "curved and slightly irregular petal edges",
+          "clustered flower buds",
+          "elongated lanceolate leaves with entire margins"
+        ]
+      }
+    ],
+    "cost": 0.00091476,
+    "predict_time": 3.785143,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Nerium oleander"
+      }
+    ],
+    "elapsed_s": 126.3
+  },
+  {
+    "filename": "conium_maculatum.jpg",
+    "truth": "Conium maculatum",
+    "tier": "toxic",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Cow Parsnip",
+        "scientific_name": "Heracleum maximum",
+        "genus": "Heracleum",
+        "family": "Apiaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "large herbaceous plant with tall, thick stems",
+          "compound umbels of small white flowers",
+          "leaf bases and stems showing distinctive ridges and hairs"
+        ]
+      },
+      {
+        "common_name": "Giant Hogweed",
+        "scientific_name": "Heracleum mantegazzianum",
+        "genus": "Heracleum",
+        "family": "Apiaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "large umbels of white flowers",
+          "tall, robust stems with purple blotches",
+          "similar compound leaves and flower structure"
+        ]
+      }
+    ],
+    "cost": 0.0009555,
+    "predict_time": 4.596629,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": false,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 2,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Heracleum maximum"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Heracleum mantegazzianum"
+      }
+    ],
+    "elapsed_s": 131.57
+  },
+  {
+    "filename": "convallaria_majalis.jpg",
+    "truth": "Convallaria majalis",
+    "tier": "toxic",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Lily of the Valley",
+        "scientific_name": "Convallaria majalis",
+        "genus": "Convallaria",
+        "family": "Asparagaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "broad, lance-shaped leaves with smooth margins",
+          "small, bell-shaped white flowers hanging in clusters on slender stalks",
+          "flowers arranged along one side of a raceme"
+        ]
+      }
+    ],
+    "cost": 0.00089502,
+    "predict_time": 6.312902,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Convallaria majalis"
+      }
+    ],
+    "elapsed_s": 137.83
+  },
+  {
+    "filename": "allium_ursinum.jpg",
+    "truth": "Allium ursinum",
+    "tier": "toxic",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Agapanthus",
+        "scientific_name": "Agapanthus africanus",
+        "genus": "Agapanthus",
+        "family": "Amaryllidaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "elongated, pointed flower bud",
+          "smooth greenish surface with subtle longitudinal ridges",
+          "thick green flower stalk"
+        ]
+      }
+    ],
+    "cost": 0.00096138,
+    "predict_time": 4.3443570000000005,
+    "top1_species": false,
+    "top3_species": false,
+    "top1_genus": false,
+    "top3_genus": false,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Agapanthus africanus"
+      }
+    ],
+    "elapsed_s": 137.21
+  },
+  {
+    "filename": "ricinus_communis.jpg",
+    "truth": "Ricinus communis",
+    "tier": "toxic",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Castor Bean Plant",
+        "scientific_name": "Ricinus communis",
+        "genus": "Ricinus",
+        "family": "Euphorbiaceae",
+        "confidence": "high",
+        "diagnostic_features": [
+          "Large palmate leaves with 5-9 deep lobes",
+          "Spiky seed capsules clustered on a central spike",
+          "Alternate leaf arrangement"
+        ]
+      }
+    ],
+    "cost": 0.0009063599999999999,
+    "predict_time": 5.107506,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 1,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Ricinus communis"
+      }
+    ],
+    "elapsed_s": 143.07
+  },
+  {
+    "filename": "atropa_belladonna.jpg",
+    "truth": "Atropa belladonna",
+    "tier": "toxic",
+    "ok": true,
+    "parse_failed": false,
+    "is_plant": true,
+    "image_quality": "good",
+    "candidates": [
+      {
+        "common_name": "Deadly Nightshade",
+        "scientific_name": "Atropa belladonna",
+        "genus": "Atropa",
+        "family": "Solanaceae",
+        "confidence": "medium",
+        "diagnostic_features": [
+          "Upright branching herbaceous plant",
+          "Dark purple bell-shaped flowers",
+          "Alternate ovate leaves",
+          "Flowers hanging downward"
+        ]
+      },
+      {
+        "common_name": "Black Nightshade",
+        "scientific_name": "Solanum nigrum",
+        "genus": "Solanum",
+        "family": "Solanaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "Herbaceous plant with green to purple stems",
+          "Bell-shaped or star-shaped flowers in clusters",
+          "Ovate leaves with wavy margins",
+          "Purple to black berries (not visible here)"
+        ]
+      },
+      {
+        "common_name": "Woody Nightshade",
+        "scientific_name": "Solanum dulcamara",
+        "genus": "Solanum",
+        "family": "Solanaceae",
+        "confidence": "low",
+        "diagnostic_features": [
+          "Climbing or sprawling habit (less obvious here)",
+          "Bell-shaped purple flowers with yellow stamens",
+          "Ovate leaves often with a pair of lobes at base"
+        ]
+      }
+    ],
+    "cost": 0.00124068,
+    "predict_time": 6.064693,
+    "top1_species": true,
+    "top3_species": true,
+    "top1_genus": true,
+    "top3_genus": true,
+    "top1_family": true,
+    "any_fabricated": false,
+    "top1_fabricated": false,
+    "abstained": false,
+    "n_candidates": 3,
+    "ranked": [
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": true,
+        "genus_hit": true,
+        "family_hit": true,
+        "resolved": "Atropa belladonna"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Solanum nigrum"
+      },
+      {
+        "abstained": false,
+        "fabricated": false,
+        "species_hit": false,
+        "genus_hit": false,
+        "family_hit": true,
+        "resolved": "Solanum dulcamara"
+      }
+    ],
+    "elapsed_s": 145.46
+  }
+]

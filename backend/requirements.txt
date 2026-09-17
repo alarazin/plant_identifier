@@ -1,0 +1,9 @@
+# Pinned to what the project was developed and evaluated against.
+# Install: backend/.venv/bin/pip install -r backend/requirements.txt
+
+fastapi==0.141.1
+uvicorn==0.53.0
+python-multipart==0.0.32   # required by FastAPI for multipart/form-data uploads
+httpx==0.28.1              # async HTTP client for the Eachlabs calls
+python-dotenv==1.2.3
+pillow==12.3.0             # server-side resize + EXIF strip

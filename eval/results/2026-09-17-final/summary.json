@@ -1,0 +1,195 @@
+{
+  "planned_trials": 160,
+  "stop_reason": "complete",
+  "recorded_usd": 0.45371725,
+  "unknown_cost_attempts": 0,
+  "recorded_plus_reserve_usd": 0.45371725,
+  "configurations": {
+    "gemini-2-5-flash": {
+      "attempted": 40,
+      "completed": 40,
+      "failed": 0,
+      "scoring_errors": 0,
+      "recorded_usd": 0.029698,
+      "unknown_cost_attempts": 0,
+      "recorded_plus_reserve_usd": 0.029698,
+      "top1_species_hits": 31,
+      "effective_top1_species": 0.775,
+      "completed_top1_species": 0.775,
+      "top3_species_hits": 36,
+      "effective_top3_species": 0.9,
+      "completed_top3_species": 0.9,
+      "top1_genus_hits": 35,
+      "effective_top1_genus": 0.875,
+      "completed_top1_genus": 0.875,
+      "top3_genus_hits": 38,
+      "effective_top3_genus": 0.95,
+      "completed_top3_genus": 0.95,
+      "p50_elapsed_s": 4.8505,
+      "fallback_used": 0,
+      "errors": {},
+      "by_tier": {
+        "confusable": {
+          "n": 9,
+          "top1_hits": 5
+        },
+        "easy": {
+          "n": 16,
+          "top1_hits": 15
+        },
+        "grass": {
+          "n": 4,
+          "top1_hits": 2
+        },
+        "toxic": {
+          "n": 6,
+          "top1_hits": 4
+        },
+        "tree": {
+          "n": 5,
+          "top1_hits": 5
+        }
+      }
+    },
+    "openai-chatgpt-5": {
+      "attempted": 40,
+      "completed": 40,
+      "failed": 0,
+      "scoring_errors": 0,
+      "recorded_usd": 0.21012075,
+      "unknown_cost_attempts": 0,
+      "recorded_plus_reserve_usd": 0.21012075,
+      "top1_species_hits": 32,
+      "effective_top1_species": 0.8,
+      "completed_top1_species": 0.8,
+      "top3_species_hits": 34,
+      "effective_top3_species": 0.85,
+      "completed_top3_species": 0.85,
+      "top1_genus_hits": 34,
+      "effective_top1_genus": 0.85,
+      "completed_top1_genus": 0.85,
+      "top3_genus_hits": 36,
+      "effective_top3_genus": 0.9,
+      "completed_top3_genus": 0.9,
+      "p50_elapsed_s": 6.129,
+      "fallback_used": 0,
+      "errors": {},
+      "by_tier": {
+        "confusable": {
+          "n": 9,
+          "top1_hits": 6
+        },
+        "easy": {
+          "n": 16,
+          "top1_hits": 16
+        },
+        "grass": {
+          "n": 4,
+          "top1_hits": 2
+        },
+        "toxic": {
+          "n": 6,
+          "top1_hits": 5
+        },
+        "tree": {
+          "n": 5,
+          "top1_hits": 3
+        }
+      }
+    },
+    "openai-chat-completion": {
+      "attempted": 40,
+      "completed": 39,
+      "failed": 1,
+      "scoring_errors": 0,
+      "recorded_usd": 0.1823955,
+      "unknown_cost_attempts": 0,
+      "recorded_plus_reserve_usd": 0.1823955,
+      "top1_species_hits": 31,
+      "effective_top1_species": 0.775,
+      "completed_top1_species": 0.7948717948717948,
+      "top3_species_hits": 33,
+      "effective_top3_species": 0.825,
+      "completed_top3_species": 0.8461538461538461,
+      "top1_genus_hits": 36,
+      "effective_top1_genus": 0.9,
+      "completed_top1_genus": 0.9230769230769231,
+      "top3_genus_hits": 37,
+      "effective_top3_genus": 0.925,
+      "completed_top3_genus": 0.9487179487179487,
+      "p50_elapsed_s": 7.5235,
+      "fallback_used": 0,
+      "errors": {
+        "invalid_response": 1
+      },
+      "by_tier": {
+        "confusable": {
+          "n": 9,
+          "top1_hits": 5
+        },
+        "easy": {
+          "n": 16,
+          "top1_hits": 14
+        },
+        "grass": {
+          "n": 4,
+          "top1_hits": 3
+        },
+        "toxic": {
+          "n": 6,
+          "top1_hits": 5
+        },
+        "tree": {
+          "n": 5,
+          "top1_hits": 4
+        }
+      }
+    },
+    "production-chain": {
+      "attempted": 40,
+      "completed": 40,
+      "failed": 0,
+      "scoring_errors": 0,
+      "recorded_usd": 0.031503,
+      "unknown_cost_attempts": 0,
+      "recorded_plus_reserve_usd": 0.031503,
+      "top1_species_hits": 32,
+      "effective_top1_species": 0.8,
+      "completed_top1_species": 0.8,
+      "top3_species_hits": 37,
+      "effective_top3_species": 0.925,
+      "completed_top3_species": 0.925,
+      "top1_genus_hits": 35,
+      "effective_top1_genus": 0.875,
+      "completed_top1_genus": 0.875,
+      "top3_genus_hits": 38,
+      "effective_top3_genus": 0.95,
+      "completed_top3_genus": 0.95,
+      "p50_elapsed_s": 4.9275,
+      "fallback_used": 0,
+      "errors": {},
+      "by_tier": {
+        "confusable": {
+          "n": 9,
+          "top1_hits": 5
+        },
+        "easy": {
+          "n": 16,
+          "top1_hits": 15
+        },
+        "grass": {
+          "n": 4,
+          "top1_hits": 2
+        },
+        "toxic": {
+          "n": 6,
+          "top1_hits": 5
+        },
+        "tree": {
+          "n": 5,
+          "top1_hits": 5
+        }
+      }
+    }
+  }
+}

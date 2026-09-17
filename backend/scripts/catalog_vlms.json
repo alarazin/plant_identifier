@@ -1,0 +1,348 @@
+[
+  {
+    "slug": "nutriscan-label-scan",
+    "title": "NutriScan | Label Scan",
+    "version": "0.0.1",
+    "image_fields": [
+      "image_url"
+    ],
+    "structured_output": false,
+    "required": [
+      "image_url"
+    ],
+    "cost": {
+      "currency": "USD",
+      "type": "usage_based",
+      "amount": null,
+      "unit": null,
+      "estimate": "Usage-based pricing",
+      "description": "Pricing is an estimate and may change as rates are updated.",
+      "min": null,
+      "max": null,
+      "depends_on": [],
+      "rows": []
+    }
+  },
+  {
+    "slug": "nutriscan-dish-scan",
+    "title": "NutriScan | Dish Scan",
+    "version": "0.0.1",
+    "image_fields": [
+      "image_url"
+    ],
+    "structured_output": false,
+    "required": [],
+    "cost": {
+      "currency": "USD",
+      "type": "usage_based",
+      "amount": null,
+      "unit": null,
+      "estimate": "Usage-based pricing",
+      "description": "Pricing is an estimate and may change as rates are updated.",
+      "min": null,
+      "max": null,
+      "depends_on": [],
+      "rows": []
+    }
+  },
+  {
+    "slug": "gemini-2-5-flash",
+    "title": "Gemini 2.5 Flash",
+    "version": "0.0.1",
+    "image_fields": [
+      "media_urls"
+    ],
+    "structured_output": true,
+    "required": [
+      "prompt"
+    ],
+    "cost": {
+      "currency": "USD",
+      "type": "usage_based",
+      "amount": null,
+      "unit": "million_tokens",
+      "estimate": "$0.30\u2013$2.50 per million tokens, depending on token type",
+      "description": "Pricing is an estimate and may change as rates are updated.",
+      "min": 0.3,
+      "max": 2.5,
+      "depends_on": [
+        "token type"
+      ],
+      "rows": [
+        {
+          "label": "audio tokens",
+          "value": 0.7
+        },
+        {
+          "label": "input tokens",
+          "value": 0.3
+        },
+        {
+          "label": "output tokens",
+          "value": 2.5
+        },
+        {
+          "label": "thoughts tokens",
+          "value": 2.5
+        }
+      ]
+    }
+  },
+  {
+    "slug": "openai-chat-completion",
+    "title": "OpenAI Chat Completion",
+    "version": "0.0.1",
+    "image_fields": [
+      "image_url"
+    ],
+    "structured_output": false,
+    "required": [
+      "user_prompt",
+      "model"
+    ],
+    "cost": {
+      "currency": "USD",
+      "type": "usage_based",
+      "amount": null,
+      "unit": "million_tokens",
+      "estimate": "$0.0525\u2013$15.75 per million tokens, depending on model and token type",
+      "description": "Pricing is an estimate and may change as rates are updated.",
+      "min": 0.0525,
+      "max": 15.75,
+      "depends_on": [
+        "model",
+        "token type"
+      ],
+      "rows": [
+        {
+          "label": "completion tokens",
+          "value": 15.75
+        },
+        {
+          "label": "prompt tokens",
+          "value": 2.625
+        },
+        {
+          "label": "completion tokens",
+          "value": 4.725
+        },
+        {
+          "label": "prompt tokens",
+          "value": 0.7875
+        },
+        {
+          "label": "completion tokens",
+          "value": 1.3125
+        },
+        {
+          "label": "prompt tokens",
+          "value": 0.21
+        },
+        {
+          "label": "completion tokens",
+          "value": 14.7
+        },
+        {
+          "label": "prompt tokens",
+          "value": 1.8375
+        },
+        {
+          "label": "completion tokens",
+          "value": 10.5
+        },
+        {
+          "label": "prompt tokens",
+          "value": 1.3125
+        },
+        {
+          "label": "completion tokens",
+          "value": 10.5
+        },
+        {
+          "label": "prompt tokens",
+          "value": 1.3125
+        },
+        {
+          "label": "completion tokens",
+          "value": 2.1
+        },
+        {
+          "label": "prompt tokens",
+          "value": 0.2625
+        },
+        {
+          "label": "completion tokens",
+          "value": 0.42
+        },
+        {
+          "label": "prompt tokens",
+          "value": 0.0525
+        },
+        {
+          "label": "completion tokens",
+          "value": 8.4
+        },
+        {
+          "label": "prompt tokens",
+          "value": 2.1
+        },
+        {
+          "label": "completion tokens",
+          "value": 1.68
+        },
+        {
+          "label": "prompt tokens",
+          "value": 0.42
+        },
+        {
+          "label": "completion tokens",
+          "value": 0.42
+        },
+        {
+          "label": "prompt tokens",
+          "value": 0.105
+        },
+        {
+          "label": "completion tokens",
+          "value": 0.63
+        },
+        {
+          "label": "prompt tokens",
+          "value": 0.1575
+        },
+        {
+          "label": "completion tokens",
+          "value": 8.4
+        },
+        {
+          "label": "prompt tokens",
+          "value": 2.1
+        },
+        {
+          "label": "completion tokens",
+          "value": 4.62
+        },
+        {
+          "label": "prompt tokens",
+          "value": 1.155
+        },
+        {
+          "label": "completion tokens",
+          "value": 4.62
+        },
+        {
+          "label": "prompt tokens",
+          "value": 1.155
+        },
+        {
+          "label": "completion tokens",
+          "value": 10.5
+        },
+        {
+          "label": "prompt tokens",
+          "value": 2.625
+        }
+      ]
+    }
+  },
+  {
+    "slug": "openai-chatgpt-5",
+    "title": "OpenAI ChatGPT",
+    "version": "0.0.1",
+    "image_fields": [
+      "image_url"
+    ],
+    "structured_output": false,
+    "required": [
+      "user_prompt"
+    ],
+    "cost": {
+      "currency": "USD",
+      "type": "usage_based",
+      "amount": null,
+      "unit": "million_tokens",
+      "estimate": "$2.625\u2013$10.50 per million tokens, depending on token type",
+      "description": "Pricing is an estimate and may change as rates are updated.",
+      "min": 2.625,
+      "max": 10.5,
+      "depends_on": [
+        "token type"
+      ],
+      "rows": [
+        {
+          "label": "input tokens",
+          "value": 2.625
+        },
+        {
+          "label": "output tokens",
+          "value": 10.5
+        }
+      ]
+    }
+  },
+  {
+    "slug": "gemini-2-0-flash-lite",
+    "title": "Gemini | 2.0 | Flash Lite",
+    "version": "0.0.1",
+    "image_fields": [
+      "image_urls"
+    ],
+    "structured_output": false,
+    "required": [
+      "image_urls",
+      "prompt"
+    ],
+    "cost": {
+      "currency": "USD",
+      "type": "usage_based",
+      "amount": null,
+      "unit": "million_tokens",
+      "estimate": "$0.10\u2013$0.40 per million tokens, depending on token type",
+      "description": "Pricing is an estimate and may change as rates are updated.",
+      "min": 0.09999999999999999,
+      "max": 0.39999999999999997,
+      "depends_on": [
+        "token type"
+      ],
+      "rows": [
+        {
+          "label": "input tokens",
+          "value": 0.09999999999999999
+        },
+        {
+          "label": "output tokens",
+          "value": 0.39999999999999997
+        }
+      ]
+    }
+  },
+  {
+    "slug": "nsfw-image-detection",
+    "title": "NSFW Image Detection",
+    "version": "0.0.1",
+    "image_fields": [
+      "image"
+    ],
+    "structured_output": false,
+    "required": [
+      "image"
+    ],
+    "cost": {
+      "currency": "USD",
+      "type": "usage_based",
+      "amount": null,
+      "unit": "processing_second",
+      "estimate": "$0.0002475 per processing second",
+      "description": "Pricing is an estimate and may change as rates are updated.",
+      "min": 0.0002475,
+      "max": 0.0002475,
+      "depends_on": [],
+      "rows": [
+        {
+          "label": "default",
+          "value": 0.0002475
+        }
+      ]
+    }
+  }
+]

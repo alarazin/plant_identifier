@@ -1,0 +1,718 @@
+{
+  "started_utc": "2026-09-17T12:26:22.717531+00:00",
+  "fingerprint": {
+    "source_sha256": {
+      "backend/app/main.py": "15c894bcd7dd2edf72de178e820fda93775e54afdb51e823be188cb18cc36787",
+      "backend/app/eachlabs.py": "8b019b791147065bcc55aab596070dce90f836311dd5d8028fa6962234510966",
+      "backend/app/errors.py": "25b37b96523e6be0b1b461af3bfa510bf8ce887a85ce90e2543a0be1085dda84",
+      "backend/app/providers.py": "c62298aceef68a98436ae25717158ba781e761bb4923846bc90c03e2f8c9f443",
+      "backend/app/prompts.py": "0a5da6d87848d68041c01519cc0e131f7002edb60c1945da9829db71fc2e6c6e",
+      "backend/app/schema.py": "b1ccac172baf3a3c786bd9f4f3d468625efbca1eeb9e720f99c35667faf8724c",
+      "eval/run_eval.py": "72239519037dc51d31cde763d4d32a8020c38a641890294d70c73daa965b9f22"
+    },
+    "dataset": [
+      {
+        "filename": "monstera_deliciosa.jpg",
+        "scientific_name": "Monstera deliciosa",
+        "common_name": "Swiss cheese plant",
+        "genus": "Monstera",
+        "tier": "easy",
+        "licence": "CC BY-SA 3.0",
+        "author": "Raffi Kojian",
+        "source": "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_2481_ucla09.jpg",
+        "sha256": "63104b541b8be01fb76da9a38de21e8900ce55395533248c15cb48454d6f1c3d"
+      },
+      {
+        "filename": "quercus_robur.jpg",
+        "scientific_name": "Quercus robur",
+        "common_name": "English oak",
+        "genus": "Quercus",
+        "tier": "tree",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:ZarlokX\" title=\"User:ZarlokX\">ZarlokX</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Ch%C3%AAne,_colza,_Jura_(horizontal).jpg",
+        "sha256": "ed76af5b3c461dd0831bb2db011e86434b8c25b8cafb190b79da059ba519c37c"
+      },
+      {
+        "filename": "epipremnum_aureum.jpg",
+        "scientific_name": "Epipremnum aureum",
+        "common_name": "Golden pothos",
+        "genus": "Epipremnum",
+        "tier": "confusable",
+        "licence": "CC BY-SA 3.0",
+        "author": "Marek Argent (Abrimaal)",
+        "source": "https://commons.wikimedia.org/wiki/File:Epipremnum-aureum-poznan-palmiarnia-abrimaal.jpg",
+        "sha256": "4ee9a5c4a23e3b96d0143cfb44a4efb92016c1843554b420cca4f4cabae49709"
+      },
+      {
+        "filename": "poa_annua.jpg",
+        "scientific_name": "Poa annua",
+        "common_name": "Annual meadow grass",
+        "genus": "Poa",
+        "tier": "grass",
+        "licence": "CC0",
+        "author": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:AnRo0002\" title=\"User:AnRo0002\">AnRo0002</a></div>",
+        "source": "https://commons.wikimedia.org/wiki/File:20200608Poa_annua2.jpg",
+        "sha256": "1b7ba25ee1cdefec5f782937024d3fa5fcad9688498ee1974340a588a4ab94b5"
+      },
+      {
+        "filename": "nerium_oleander.jpg",
+        "scientific_name": "Nerium oleander",
+        "common_name": "Oleander",
+        "genus": "Nerium",
+        "tier": "toxic",
+        "licence": "CC BY 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ahmet_Emin_Karaku%C5%9Fo%C4%9Flu&amp;action=edit&amp;redlink=1\" ",
+        "source": "https://commons.wikimedia.org/wiki/File:2024-05-02_Nerium_oleander_(Zakkum).jpg",
+        "sha256": "0777dd40eb24c877d0fba09298c70ea78fc1feac2da6662eda6ef478e7b8d6ac"
+      },
+      {
+        "filename": "ficus_lyrata.jpg",
+        "scientific_name": "Ficus lyrata",
+        "common_name": "Fiddle-leaf fig",
+        "genus": "Ficus",
+        "tier": "easy",
+        "licence": "CC BY 4.0",
+        "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/5690874\">Thalia M. Mite</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Ficus_lyrata_200718807.jpg",
+        "sha256": "1bb758935023526e837da9af8fc6a1e75ec7773ac98ba5f7d76ba42d9cc25b54"
+      },
+      {
+        "filename": "acer_palmatum.jpg",
+        "scientific_name": "Acer palmatum",
+        "common_name": "Japanese maple",
+        "genus": "Acer",
+        "tier": "tree",
+        "licence": "CC BY-SA 3.0",
+        "author": "Kurt Stüber <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.kurtstueber.de/\">[1]</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Acer_palmatum0.jpg",
+        "sha256": "37afb3e1c89071c028d9d02011dc155576247d8175ba5245881563d6f8526001"
+      },
+      {
+        "filename": "philodendron_hederaceum.jpg",
+        "scientific_name": "Philodendron hederaceum",
+        "common_name": "Heartleaf philodendron",
+        "genus": "Philodendron",
+        "tier": "confusable",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:Filo_g%C3%A8n%27\" title=\"User:Filo gèn'\">Filo gèn'</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Feuille_Cord%C3%A9e.jpg",
+        "sha256": "329a97ea7b35500560b001e536cf12e620a828ceac04ad30f5737886a351c2db"
+      },
+      {
+        "filename": "festuca_rubra.jpg",
+        "scientific_name": "Festuca rubra",
+        "common_name": "Red fescue",
+        "genus": "Festuca",
+        "tier": "grass",
+        "licence": "CC BY 4.0",
+        "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/1440491\">Dmitriy Bochkov</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Festuca_rubra_237400608.jpg",
+        "sha256": "d4026ba5aa3bd7d577adf45e917ba91b717a6735402dab161b539e405da294a4"
+      },
+      {
+        "filename": "conium_maculatum.jpg",
+        "scientific_name": "Conium maculatum",
+        "common_name": "Poison hemlock",
+        "genus": "Conium",
+        "tier": "toxic",
+        "licence": "CC BY 4.0",
+        "author": "Arkadiusz Nowak, Marcin Nobis, Sylwia Nowak, Agnieszka Nobis, Anna Wróbel, Sebastian Świerszcz, Ewelina Klichowska, Iwon",
+        "source": "https://commons.wikimedia.org/wiki/File:Conium_maculatum_(Flora_of_Tajikistan).png",
+        "sha256": "e30844fab030c7638100d65c72e72b81d9fb8659910892def902789308c980a4"
+      },
+      {
+        "filename": "dracaena_trifasciata.jpg",
+        "scientific_name": "Dracaena trifasciata",
+        "common_name": "Snake plant",
+        "genus": "Dracaena",
+        "tier": "easy",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/5302\">Colin Meurk</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Dracaena_trifasciata_12694999.jpg",
+        "sha256": "b17891cd869ba65ef89c7d36bd730b6e44e2d5cc8586431f5e89bb8e8378b31a"
+      },
+      {
+        "filename": "betula_pendula.jpg",
+        "scientific_name": "Betula pendula",
+        "common_name": "Silver birch",
+        "genus": "Betula",
+        "tier": "tree",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:Pyh%C3%A4j%C3%A4rviLab\" title=\"User:PyhäjärviLab\">PyhäjärviLab</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:7_Haapastensyrj%C3%A4_forestry_research_centre_Betula_pendula_grafts_2021.jpg",
+        "sha256": "60796273861e03d1843efe2a920436a2edfbf271b893f9add7f8dd1308367359"
+      },
+      {
+        "filename": "monstera_adansonii.jpg",
+        "scientific_name": "Monstera adansonii",
+        "common_name": "Swiss cheese vine",
+        "genus": "Monstera",
+        "tier": "confusable",
+        "licence": "CC0",
+        "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/3302680\">Jacob Rehage</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Monstera_adansonii_112059105.jpg",
+        "sha256": "731fd64ad88296aea197d941d02368a83b22e56ee09054d9d3e1ad5552325170"
+      },
+      {
+        "filename": "cynodon_dactylon.jpg",
+        "scientific_name": "Cynodon dactylon",
+        "common_name": "Bermuda grass",
+        "genus": "Cynodon",
+        "tier": "grass",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:DouglasGoldman\" title=\"User:DouglasGoldman\">Douglas Goldman</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Cynodon1.jpg",
+        "sha256": "5e6bca6d57e4bf7d0d254d8ede5a35e575ae15a23ba1090f7837e8ad0f8c5d2b"
+      },
+      {
+        "filename": "convallaria_majalis.jpg",
+        "scientific_name": "Convallaria majalis",
+        "common_name": "Lily of the valley",
+        "genus": "Convallaria",
+        "tier": "toxic",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:GT1976\" title=\"User:GT1976\">GT1976</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:2018-05-13_(168)_Convallaria_majalis_(lily-of-the-valley)_at_Bichlh%C3%A4usl_in_Frankenfels,_Austria.jpg",
+        "sha256": "3bc2a881ac916d4c771c4b4174a516e42d30fe16950e5fa0646ce84c95caf132"
+      },
+      {
+        "filename": "zamioculcas_zamiifolia.jpg",
+        "scientific_name": "Zamioculcas zamiifolia",
+        "common_name": "ZZ plant",
+        "genus": "Zamioculcas",
+        "tier": "easy",
+        "licence": "CC0",
+        "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Muago&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mua",
+        "source": "https://commons.wikimedia.org/wiki/File:Millonaria_(Zamioculcas_zamiifolia).jpg",
+        "sha256": "997b6597a6cff0422080b5b4dd81f4787f883a4f7a07d0eba52c379d9ce4591b"
+      },
+      {
+        "filename": "olea_europaea.jpg",
+        "scientific_name": "Olea europaea",
+        "common_name": "Olive tree",
+        "genus": "Olea",
+        "tier": "tree",
+        "licence": "CC BY-SA 3.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:Biopics\" title=\"User:Biopics\">Hans Hillewaert</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:El_Perell%C3%B3_-_Old_olive_tree.jpg",
+        "sha256": "7fa57e83228f2ae4a363f1f02d367a8b09b19374661be9e69656e1548f2b8f24"
+      },
+      {
+        "filename": "echeveria_elegans.jpg",
+        "scientific_name": "Echeveria elegans",
+        "common_name": "Mexican snowball",
+        "genus": "Echeveria",
+        "tier": "confusable",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:F._Riedelio\" title=\"User:F. Riedelio\">Friedrich Haag</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:003_2017_08_05_Rotationssymmetrie.jpg",
+        "sha256": "09da06f1fb3ba743deba29fb551cf61ea145acc7d1d605e8e73517b674b19f62"
+      },
+      {
+        "filename": "phragmites_australis.jpg",
+        "scientific_name": "Phragmites australis",
+        "common_name": "Common reed",
+        "genus": "Phragmites",
+        "tier": "grass",
+        "licence": "CC BY-SA 4.0",
+        "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographe",
+        "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Heubach_--_2019_--_3260.jpg",
+        "sha256": "54c0475c6fadf778b60b63a1fe1c331915c9bcdf3ba8485607ac8e4b44769504"
+      },
+      {
+        "filename": "allium_ursinum.jpg",
+        "scientific_name": "Allium ursinum",
+        "common_name": "Wild garlic",
+        "genus": "Allium",
+        "tier": "toxic",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:Famberhorst\" title=\"User:Famberhorst\">Dominicus Johannes Bergsma</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Bloemknop_van_daslook_(Allium_ursinum)._Locatie,_De_Famberhorst_01.jpg",
+        "sha256": "329f9ae7554150084e87866ce62dc997c87626801239fe284a609e011829b8de"
+      },
+      {
+        "filename": "chlorophytum_comosum.jpg",
+        "scientific_name": "Chlorophytum comosum",
+        "common_name": "Spider plant",
+        "genus": "Chlorophytum",
+        "tier": "easy",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:Juan_Carlos_Fonseca_Mata\" title=\"User:Juan Carlos Fonseca Mata\">Juan Carlos F",
+        "source": "https://commons.wikimedia.org/wiki/File:Chlorophytum_comosum,_flores.jpg",
+        "sha256": "a6038b8c1b442ed3b269701a120fe20219ff2e6222a1bc2cb5ae4449d477247c"
+      },
+      {
+        "filename": "ginkgo_biloba.jpg",
+        "scientific_name": "Ginkgo biloba",
+        "common_name": "Ginkgo",
+        "genus": "Ginkgo",
+        "tier": "tree",
+        "licence": "CC BY-SA 3.0",
+        "author": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:EecherplazGinkgo06.jpg\" title=\"File:EecherplazGinkgo06.jpg\">Eecherpla",
+        "source": "https://commons.wikimedia.org/wiki/File:GINKGOBAUM-2.jpg",
+        "sha256": "d2733c2edf1247dee4bb55eeb56000e47d816b0da242ae6e2e8be51b6855403f"
+      },
+      {
+        "filename": "sempervivum_tectorum.jpg",
+        "scientific_name": "Sempervivum tectorum",
+        "common_name": "Common houseleek",
+        "genus": "Sempervivum",
+        "tier": "confusable",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Eliska_Jindriskova&amp;action=edit&amp;redlink=1\" class=\"new\" ti",
+        "source": "https://commons.wikimedia.org/wiki/File:Hrob_porostl%C3%BD_net%C5%99eskem_st%C5%99e%C5%A1n%C3%ADm.jpg",
+        "sha256": "3774f2e08f6ed8c87d1ceeb7ddc9a375ebcd85b98e95a027126f67e299aa74c2"
+      },
+      {
+        "filename": "ricinus_communis.jpg",
+        "scientific_name": "Ricinus communis",
+        "common_name": "Castor bean",
+        "genus": "Ricinus",
+        "tier": "toxic",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:Dvellakat\" title=\"User:Dvellakat\">Dvellakat</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Casterplant_03.jpg",
+        "sha256": "500546cd7658ca84aa7e30bc86b1b81e6407a99c5de1d46ade0ecac981921c77"
+      },
+      {
+        "filename": "spathiphyllum_wallisii.jpg",
+        "scientific_name": "Spathiphyllum wallisii",
+        "common_name": "Peace lily",
+        "genus": "Spathiphyllum",
+        "tier": "easy",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hujan-Rerintik&amp;action=edit&amp;redlink=1\" class=\"new\" title=",
+        "source": "https://commons.wikimedia.org/wiki/File:Bunga_berwarna_putih.jpg",
+        "sha256": "d2ebb354d6f8158fc732b6824d17c2480107b0800c49f0f108121a2e75acda00"
+      },
+      {
+        "filename": "mentha_spicata.jpg",
+        "scientific_name": "Mentha spicata",
+        "common_name": "Spearmint",
+        "genus": "Mentha",
+        "tier": "confusable",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:W._Bulach\" title=\"User:W. Bulach\">W. Bulach</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:00_1984_Gr%C3%BCne_Minze_(Mentha_Spicata)_-_Schmetterling_(Weissling).jpg",
+        "sha256": "894f1241c42670150c3c9f72f5f2e4092f7f8121ce5c833697ae298b9625efa1"
+      },
+      {
+        "filename": "atropa_belladonna.jpg",
+        "scientific_name": "Atropa belladonna",
+        "common_name": "Deadly nightshade",
+        "genus": "Atropa",
+        "tier": "toxic",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:FlocciNivis\" title=\"User:FlocciNivis\">Flocci Nivis</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:20200531Atropa_belladonna01.jpg",
+        "sha256": "6a670b08aee14739246aada457d4c9f77e455eef3dae87e5f6b13bae74ffed91"
+      },
+      {
+        "filename": "aloe_vera.jpg",
+        "scientific_name": "Aloe vera",
+        "common_name": "Aloe vera",
+        "genus": "Aloe",
+        "tier": "easy",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:Holger_Uwe_Schmitt\" title=\"User:Holger Uwe Schmitt\">Holger Uwe Schmitt</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:%2B_La_Finca_De_Aloe_Vera._02.jpg",
+        "sha256": "2a43a8f53b2f2eb4f2538e58ad5ccbafb3919d0565bad796d9c94b227f559076"
+      },
+      {
+        "filename": "melissa_officinalis.jpg",
+        "scientific_name": "Melissa officinalis",
+        "common_name": "Lemon balm",
+        "genus": "Melissa",
+        "tier": "confusable",
+        "licence": "CC BY-SA 3.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:Derzsi_Elekes_Andor\" title=\"User:Derzsi Elekes Andor\">Derzsi Elekes Andor</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Citromf%C5%B1.JPG",
+        "sha256": "dd727d85193c30f11fb6340bb932bb568174ea93803e106330d9ac59dcffaf51"
+      },
+      {
+        "filename": "crassula_ovata.jpg",
+        "scientific_name": "Crassula ovata",
+        "common_name": "Jade plant",
+        "genus": "Crassula",
+        "tier": "easy",
+        "licence": "CC BY-SA 2.0",
+        "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/65695019@N07\">Bernard DUPONT</a> from FRANCE",
+        "source": "https://commons.wikimedia.org/wiki/File:2016-10-03_Crassula_ovata,_Camdeboo_NP,_Eastern_Cape_(31803933474).jpg",
+        "sha256": "85aaefa720ceb55eb5d755f77f2299aa12f5e48e159ae6bed01a1f6a5eea064a"
+      },
+      {
+        "filename": "petroselinum_crispum.jpg",
+        "scientific_name": "Petroselinum crispum",
+        "common_name": "Parsley",
+        "genus": "Petroselinum",
+        "tier": "confusable",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:Halima_Waziri\" title=\"User:Halima Waziri\">Halima Waziri</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:A_carton_of_parsley_leaves_1.jpg",
+        "sha256": "c4bc0c68260cda51f51ec62c4d224fac3ab713ba62d4150195b151b997a85e4e"
+      },
+      {
+        "filename": "helianthus_annuus.jpg",
+        "scientific_name": "Helianthus annuus",
+        "common_name": "Sunflower",
+        "genus": "Helianthus",
+        "tier": "easy",
+        "licence": "CC BY-SA 4.0",
+        "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographe",
+        "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Weddern,_Sonnenblumen_--_2026_--_2005.jpg",
+        "sha256": "afca1bd51dc0c5e2e215656a92e55d4283e21922161139f0fa6b6bea0e5c8585"
+      },
+      {
+        "filename": "coriandrum_sativum.jpg",
+        "scientific_name": "Coriandrum sativum",
+        "common_name": "Coriander",
+        "genus": "Coriandrum",
+        "tier": "confusable",
+        "licence": "CC BY-SA 3.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:Thamizhpparithi_Maari\" title=\"User:Thamizhpparithi Maari\">Thamizhpparithi Maa",
+        "source": "https://commons.wikimedia.org/wiki/File:A_scene_of_Coriander_leaves.JPG",
+        "sha256": "4eb2e7afb89e87e62bb0f64b9b48ede9b5809f65e71705501d6d7b98d01d93a1"
+      },
+      {
+        "filename": "lavandula_angustifolia.jpg",
+        "scientific_name": "Lavandula angustifolia",
+        "common_name": "English lavender",
+        "genus": "Lavandula",
+        "tier": "easy",
+        "licence": "CC BY-SA 4.0",
+        "author": "Joanna Boisse",
+        "source": "https://commons.wikimedia.org/wiki/File:Atlas_roslin_pl_Lawenda_w%C4%85skolistna_918_8775.jpg",
+        "sha256": "edf1a6ad21dbad4fb434486cc7f79aeccd54e7b3596b5394d284ac5f65f582bb"
+      },
+      {
+        "filename": "bellis_perennis.jpg",
+        "scientific_name": "Bellis perennis",
+        "common_name": "Common daisy",
+        "genus": "Bellis",
+        "tier": "easy",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:W._Bulach\" title=\"User:W. Bulach\">W. Bulach</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:00_4448_G%C3%A4nsebl%C3%BCmchen_(Bellis_perennis).jpg",
+        "sha256": "b7662e5688b4bbab0d74a0856c96ecdc90dc12c8303aaca2a316b728efb4c8ca"
+      },
+      {
+        "filename": "taraxacum_officinale.jpg",
+        "scientific_name": "Taraxacum officinale",
+        "common_name": "Dandelion",
+        "genus": "Taraxacum",
+        "tier": "easy",
+        "licence": "CC BY 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:FlocciNivis\" title=\"User:FlocciNivis\">Flocci Nivis</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:20230430_Apis_mellifera_02.jpg",
+        "sha256": "bfa6fedff7d9b93bbef18a1df1dff112d4c0e1020d989abd418521609390acd2"
+      },
+      {
+        "filename": "hydrangea_macrophylla.jpg",
+        "scientific_name": "Hydrangea macrophylla",
+        "common_name": "Bigleaf hydrangea",
+        "genus": "Hydrangea",
+        "tier": "easy",
+        "licence": "CC BY 2.0",
+        "author": "Michele Dorsey Walfred",
+        "source": "https://commons.wikimedia.org/wiki/File:Blaumaise_or_Zorro.jpg",
+        "sha256": "322d3e9f4ccb8d9c650783084c6ebb13c6cb4713f0bc6397095fe181e2a1197e"
+      },
+      {
+        "filename": "papaver_rhoeas.jpg",
+        "scientific_name": "Papaver rhoeas",
+        "common_name": "Common poppy",
+        "genus": "Papaver",
+        "tier": "easy",
+        "licence": "CC BY-SA 4.0",
+        "author": "<a href=\"//commons.wikimedia.org/wiki/User:JackyM59\" title=\"User:JackyM59\">JackyM59</a>",
+        "source": "https://commons.wikimedia.org/wiki/File:Camomille_sauvage_(Matricaria_chamomilla),_coquelicots_(Papaver_rhoeas)_au_bord_d%27un_champ_d%27orge_(Hordeum_vulgare).jpg",
+        "sha256": "54366969b98b03eec0568022a6a1e3617b2b81d9da247a28b6bfbccd1c4f66a7"
+      },
+      {
+        "filename": "digitalis_purpurea.jpg",
+        "scientific_name": "Digitalis purpurea",
+        "common_name": "Foxglove",
+        "genus": "Digitalis",
+        "tier": "easy",
+        "licence": "CC BY 3.0",
+        "author": "Honza Groh",
+        "source": "https://commons.wikimedia.org/wiki/File:Brdy-stonek_zvonku.jpg",
+        "sha256": "46a08a075011ffe1a3884cc46e808cc9a78f40b88ceb45a7a912e17e27fbf5f0"
+      },
+      {
+        "filename": "hedera_helix.jpg",
+        "scientific_name": "Hedera helix",
+        "common_name": "Common ivy",
+        "genus": "Hedera",
+        "tier": "easy",
+        "licence": "CC BY-SA 4.0",
+        "author": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Di",
+        "source": "https://commons.wikimedia.org/wiki/File:(MHNT)_Hedera_helix_-_immature_inflorescences.jpg",
+        "sha256": "44d3b9f6d769d865c316d5b8335f569490c0fbb053f908dc1df3d48a28ee7b37"
+      }
+    ],
+    "configurations": {
+      "gemini-2-5-flash": [
+        {
+          "model": "gemini-2-5-flash",
+          "version": "0.0.1",
+          "input_template": {
+            "prompt": "Identify the plant in this photo.\n\nReturn up to 3 ranked candidates with the visible evidence for each, and assess\nwhether the photo is good enough for a reliable identification.",
+            "system_instruction": "You are a careful botanist doing visual plant identification.\n\nRules you must follow:\n1. Describe only what is VISIBLE. Never infer from context or background.\n2. Work from common name to Latin binomial, not the reverse.\n3. Offer up to 3 candidates, most likely first. If two species are genuinely\n   hard to separate from this photo, include both rather than guessing one.\n4. Never invent a species. If you cannot get to species level, set\n   scientific_name to \"uncertain\" and still give the genus and family you are\n   confident about. A correct genus is far more useful than a fabricated species.\n5. Calibrate honestly. \"high\" means you would stake your reputation on it.\n   Most real photos deserve \"medium\" at best.\n6. diagnostic_features must cite features actually in the frame (leaf shape,\n   margin, venation, arrangement, habit, flower structure, bark, sap).\n7. If the subject is not a plant, set is_plant false and return no candidates.\n8. Judge the photo itself. Blur, distance, occlusion and low light cause more\n   wrong answers than taxonomy does, so flag them honestly in image_quality.",
+            "media_urls": [
+              "<uploaded-image-url>"
+            ],
+            "response_mime_type": "application/json",
+            "response_schema": {
+              "type": "object",
+              "propertyOrdering": [
+                "is_plant",
+                "image_quality",
+                "quality_hint",
+                "candidates"
+              ],
+              "required": [
+                "is_plant",
+                "image_quality",
+                "candidates"
+              ],
+              "properties": {
+                "is_plant": {
+                  "type": "boolean",
+                  "description": "False for animals, objects, people, screenshots, empty scenes."
+                },
+                "image_quality": {
+                  "type": "string",
+                  "enum": [
+                    "good",
+                    "blurry",
+                    "too_far",
+                    "occluded",
+                    "dark"
+                  ]
+                },
+                "quality_hint": {
+                  "type": "string",
+                  "description": "If quality is not 'good', one short actionable sentence for a retake."
+                },
+                "candidates": {
+                  "type": "array",
+                  "description": "1-3 candidates, most likely first. Empty if is_plant is false.",
+                  "items": {
+                    "type": "object",
+                    "propertyOrdering": [
+                      "common_name",
+                      "scientific_name",
+                      "genus",
+                      "family",
+                      "confidence",
+                      "diagnostic_features"
+                    ],
+                    "required": [
+                      "common_name",
+                      "scientific_name",
+                      "genus",
+                      "confidence"
+                    ],
+                    "properties": {
+                      "common_name": {
+                        "type": "string",
+                        "description": "Everyday English name."
+                      },
+                      "scientific_name": {
+                        "type": "string",
+                        "description": "Latin binomial. Use 'uncertain' if not confident to species level."
+                      },
+                      "genus": {
+                        "type": "string"
+                      },
+                      "family": {
+                        "type": "string"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "high",
+                          "medium",
+                          "low"
+                        ]
+                      },
+                      "diagnostic_features": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "2-4 features VISIBLE IN THIS PHOTO that support this ID."
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "thinking_budget": 0,
+            "temperature": 0.1,
+            "max_output_tokens": 1500
+          }
+        }
+      ],
+      "openai-chatgpt-5": [
+        {
+          "model": "openai-chatgpt-5",
+          "version": "0.0.1",
+          "input_template": {
+            "user_prompt": "Identify the plant in this photo.\n\nReturn up to 3 ranked candidates with the visible evidence for each, and assess\nwhether the photo is good enough for a reliable identification.\n\nReturn ONLY a JSON object and nothing else — no markdown fence, no commentary before or after. It must validate against this JSON Schema:\n{\"type\":\"object\",\"propertyOrdering\":[\"is_plant\",\"image_quality\",\"quality_hint\",\"candidates\"],\"required\":[\"is_plant\",\"image_quality\",\"candidates\"],\"properties\":{\"is_plant\":{\"type\":\"boolean\",\"description\":\"False for animals, objects, people, screenshots, empty scenes.\"},\"image_quality\":{\"type\":\"string\",\"enum\":[\"good\",\"blurry\",\"too_far\",\"occluded\",\"dark\"]},\"quality_hint\":{\"type\":\"string\",\"description\":\"If quality is not 'good', one short actionable sentence for a retake.\"},\"candidates\":{\"type\":\"array\",\"description\":\"1-3 candidates, most likely first. Empty if is_plant is false.\",\"items\":{\"type\":\"object\",\"propertyOrdering\":[\"common_name\",\"scientific_name\",\"genus\",\"family\",\"confidence\",\"diagnostic_features\"],\"required\":[\"common_name\",\"scientific_name\",\"genus\",\"confidence\"],\"properties\":{\"common_name\":{\"type\":\"string\",\"description\":\"Everyday English name.\"},\"scientific_name\":{\"type\":\"string\",\"description\":\"Latin binomial. Use 'uncertain' if not confident to species level.\"},\"genus\":{\"type\":\"string\"},\"family\":{\"type\":\"string\"},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"diagnostic_features\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"2-4 features VISIBLE IN THIS PHOTO that support this ID.\"}}}}}}",
+            "system_prompt": "You are a careful botanist doing visual plant identification.\n\nRules you must follow:\n1. Describe only what is VISIBLE. Never infer from context or background.\n2. Work from common name to Latin binomial, not the reverse.\n3. Offer up to 3 candidates, most likely first. If two species are genuinely\n   hard to separate from this photo, include both rather than guessing one.\n4. Never invent a species. If you cannot get to species level, set\n   scientific_name to \"uncertain\" and still give the genus and family you are\n   confident about. A correct genus is far more useful than a fabricated species.\n5. Calibrate honestly. \"high\" means you would stake your reputation on it.\n   Most real photos deserve \"medium\" at best.\n6. diagnostic_features must cite features actually in the frame (leaf shape,\n   margin, venation, arrangement, habit, flower structure, bark, sap).\n7. If the subject is not a plant, set is_plant false and return no candidates.\n8. Judge the photo itself. Blur, distance, occlusion and low light cause more\n   wrong answers than taxonomy does, so flag them honestly in image_quality.",
+            "image_url": "<uploaded-image-url>",
+            "temperature": 0.1,
+            "max_output_tokens": 1500
+          }
+        }
+      ],
+      "openai-chat-completion": [
+        {
+          "model": "openai-chat-completion",
+          "version": "0.0.1",
+          "input_template": {
+            "user_prompt": "Identify the plant in this photo.\n\nReturn up to 3 ranked candidates with the visible evidence for each, and assess\nwhether the photo is good enough for a reliable identification.\n\nReturn ONLY a JSON object and nothing else — no markdown fence, no commentary before or after. It must validate against this JSON Schema:\n{\"type\":\"object\",\"propertyOrdering\":[\"is_plant\",\"image_quality\",\"quality_hint\",\"candidates\"],\"required\":[\"is_plant\",\"image_quality\",\"candidates\"],\"properties\":{\"is_plant\":{\"type\":\"boolean\",\"description\":\"False for animals, objects, people, screenshots, empty scenes.\"},\"image_quality\":{\"type\":\"string\",\"enum\":[\"good\",\"blurry\",\"too_far\",\"occluded\",\"dark\"]},\"quality_hint\":{\"type\":\"string\",\"description\":\"If quality is not 'good', one short actionable sentence for a retake.\"},\"candidates\":{\"type\":\"array\",\"description\":\"1-3 candidates, most likely first. Empty if is_plant is false.\",\"items\":{\"type\":\"object\",\"propertyOrdering\":[\"common_name\",\"scientific_name\",\"genus\",\"family\",\"confidence\",\"diagnostic_features\"],\"required\":[\"common_name\",\"scientific_name\",\"genus\",\"confidence\"],\"properties\":{\"common_name\":{\"type\":\"string\",\"description\":\"Everyday English name.\"},\"scientific_name\":{\"type\":\"string\",\"description\":\"Latin binomial. Use 'uncertain' if not confident to species level.\"},\"genus\":{\"type\":\"string\"},\"family\":{\"type\":\"string\"},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"diagnostic_features\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"2-4 features VISIBLE IN THIS PHOTO that support this ID.\"}}}}}}",
+            "system_prompt": "You are a careful botanist doing visual plant identification.\n\nRules you must follow:\n1. Describe only what is VISIBLE. Never infer from context or background.\n2. Work from common name to Latin binomial, not the reverse.\n3. Offer up to 3 candidates, most likely first. If two species are genuinely\n   hard to separate from this photo, include both rather than guessing one.\n4. Never invent a species. If you cannot get to species level, set\n   scientific_name to \"uncertain\" and still give the genus and family you are\n   confident about. A correct genus is far more useful than a fabricated species.\n5. Calibrate honestly. \"high\" means you would stake your reputation on it.\n   Most real photos deserve \"medium\" at best.\n6. diagnostic_features must cite features actually in the frame (leaf shape,\n   margin, venation, arrangement, habit, flower structure, bark, sap).\n7. If the subject is not a plant, set is_plant false and return no candidates.\n8. Judge the photo itself. Blur, distance, occlusion and low light cause more\n   wrong answers than taxonomy does, so flag them honestly in image_quality.",
+            "image_url": "<uploaded-image-url>",
+            "model": "gpt-5.1",
+            "temperature": 0.1,
+            "max_tokens": 1500
+          }
+        }
+      ],
+      "production-chain": [
+        {
+          "model": "gemini-2-5-flash",
+          "version": "0.0.1",
+          "input_template": {
+            "prompt": "Identify the plant in this photo.\n\nReturn up to 3 ranked candidates with the visible evidence for each, and assess\nwhether the photo is good enough for a reliable identification.",
+            "system_instruction": "You are a careful botanist doing visual plant identification.\n\nRules you must follow:\n1. Describe only what is VISIBLE. Never infer from context or background.\n2. Work from common name to Latin binomial, not the reverse.\n3. Offer up to 3 candidates, most likely first. If two species are genuinely\n   hard to separate from this photo, include both rather than guessing one.\n4. Never invent a species. If you cannot get to species level, set\n   scientific_name to \"uncertain\" and still give the genus and family you are\n   confident about. A correct genus is far more useful than a fabricated species.\n5. Calibrate honestly. \"high\" means you would stake your reputation on it.\n   Most real photos deserve \"medium\" at best.\n6. diagnostic_features must cite features actually in the frame (leaf shape,\n   margin, venation, arrangement, habit, flower structure, bark, sap).\n7. If the subject is not a plant, set is_plant false and return no candidates.\n8. Judge the photo itself. Blur, distance, occlusion and low light cause more\n   wrong answers than taxonomy does, so flag them honestly in image_quality.",
+            "media_urls": [
+              "<uploaded-image-url>"
+            ],
+            "response_mime_type": "application/json",
+            "response_schema": {
+              "type": "object",
+              "propertyOrdering": [
+                "is_plant",
+                "image_quality",
+                "quality_hint",
+                "candidates"
+              ],
+              "required": [
+                "is_plant",
+                "image_quality",
+                "candidates"
+              ],
+              "properties": {
+                "is_plant": {
+                  "type": "boolean",
+                  "description": "False for animals, objects, people, screenshots, empty scenes."
+                },
+                "image_quality": {
+                  "type": "string",
+                  "enum": [
+                    "good",
+                    "blurry",
+                    "too_far",
+                    "occluded",
+                    "dark"
+                  ]
+                },
+                "quality_hint": {
+                  "type": "string",
+                  "description": "If quality is not 'good', one short actionable sentence for a retake."
+                },
+                "candidates": {
+                  "type": "array",
+                  "description": "1-3 candidates, most likely first. Empty if is_plant is false.",
+                  "items": {
+                    "type": "object",
+                    "propertyOrdering": [
+                      "common_name",
+                      "scientific_name",
+                      "genus",
+                      "family",
+                      "confidence",
+                      "diagnostic_features"
+                    ],
+                    "required": [
+                      "common_name",
+                      "scientific_name",
+                      "genus",
+                      "confidence"
+                    ],
+                    "properties": {
+                      "common_name": {
+                        "type": "string",
+                        "description": "Everyday English name."
+                      },
+                      "scientific_name": {
+                        "type": "string",
+                        "description": "Latin binomial. Use 'uncertain' if not confident to species level."
+                      },
+                      "genus": {
+                        "type": "string"
+                      },
+                      "family": {
+                        "type": "string"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "high",
+                          "medium",
+                          "low"
+                        ]
+                      },
+                      "diagnostic_features": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "2-4 features VISIBLE IN THIS PHOTO that support this ID."
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "thinking_budget": 0,
+            "temperature": 0.1,
+            "max_output_tokens": 1500
+          }
+        },
+        {
+          "model": "openai-chatgpt-5",
+          "version": "0.0.1",
+          "input_template": {
+            "user_prompt": "Identify the plant in this photo.\n\nReturn up to 3 ranked candidates with the visible evidence for each, and assess\nwhether the photo is good enough for a reliable identification.\n\nReturn ONLY a JSON object and nothing else — no markdown fence, no commentary before or after. It must validate against this JSON Schema:\n{\"type\":\"object\",\"propertyOrdering\":[\"is_plant\",\"image_quality\",\"quality_hint\",\"candidates\"],\"required\":[\"is_plant\",\"image_quality\",\"candidates\"],\"properties\":{\"is_plant\":{\"type\":\"boolean\",\"description\":\"False for animals, objects, people, screenshots, empty scenes.\"},\"image_quality\":{\"type\":\"string\",\"enum\":[\"good\",\"blurry\",\"too_far\",\"occluded\",\"dark\"]},\"quality_hint\":{\"type\":\"string\",\"description\":\"If quality is not 'good', one short actionable sentence for a retake.\"},\"candidates\":{\"type\":\"array\",\"description\":\"1-3 candidates, most likely first. Empty if is_plant is false.\",\"items\":{\"type\":\"object\",\"propertyOrdering\":[\"common_name\",\"scientific_name\",\"genus\",\"family\",\"confidence\",\"diagnostic_features\"],\"required\":[\"common_name\",\"scientific_name\",\"genus\",\"confidence\"],\"properties\":{\"common_name\":{\"type\":\"string\",\"description\":\"Everyday English name.\"},\"scientific_name\":{\"type\":\"string\",\"description\":\"Latin binomial. Use 'uncertain' if not confident to species level.\"},\"genus\":{\"type\":\"string\"},\"family\":{\"type\":\"string\"},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"diagnostic_features\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"2-4 features VISIBLE IN THIS PHOTO that support this ID.\"}}}}}}",
+            "system_prompt": "You are a careful botanist doing visual plant identification.\n\nRules you must follow:\n1. Describe only what is VISIBLE. Never infer from context or background.\n2. Work from common name to Latin binomial, not the reverse.\n3. Offer up to 3 candidates, most likely first. If two species are genuinely\n   hard to separate from this photo, include both rather than guessing one.\n4. Never invent a species. If you cannot get to species level, set\n   scientific_name to \"uncertain\" and still give the genus and family you are\n   confident about. A correct genus is far more useful than a fabricated species.\n5. Calibrate honestly. \"high\" means you would stake your reputation on it.\n   Most real photos deserve \"medium\" at best.\n6. diagnostic_features must cite features actually in the frame (leaf shape,\n   margin, venation, arrangement, habit, flower structure, bark, sap).\n7. If the subject is not a plant, set is_plant false and return no candidates.\n8. Judge the photo itself. Blur, distance, occlusion and low light cause more\n   wrong answers than taxonomy does, so flag them honestly in image_quality.",
+            "image_url": "<uploaded-image-url>",
+            "temperature": 0.1,
+            "max_output_tokens": 1500
+          }
+        },
+        {
+          "model": "openai-chat-completion",
+          "version": "0.0.1",
+          "input_template": {
+            "user_prompt": "Identify the plant in this photo.\n\nReturn up to 3 ranked candidates with the visible evidence for each, and assess\nwhether the photo is good enough for a reliable identification.\n\nReturn ONLY a JSON object and nothing else — no markdown fence, no commentary before or after. It must validate against this JSON Schema:\n{\"type\":\"object\",\"propertyOrdering\":[\"is_plant\",\"image_quality\",\"quality_hint\",\"candidates\"],\"required\":[\"is_plant\",\"image_quality\",\"candidates\"],\"properties\":{\"is_plant\":{\"type\":\"boolean\",\"description\":\"False for animals, objects, people, screenshots, empty scenes.\"},\"image_quality\":{\"type\":\"string\",\"enum\":[\"good\",\"blurry\",\"too_far\",\"occluded\",\"dark\"]},\"quality_hint\":{\"type\":\"string\",\"description\":\"If quality is not 'good', one short actionable sentence for a retake.\"},\"candidates\":{\"type\":\"array\",\"description\":\"1-3 candidates, most likely first. Empty if is_plant is false.\",\"items\":{\"type\":\"object\",\"propertyOrdering\":[\"common_name\",\"scientific_name\",\"genus\",\"family\",\"confidence\",\"diagnostic_features\"],\"required\":[\"common_name\",\"scientific_name\",\"genus\",\"confidence\"],\"properties\":{\"common_name\":{\"type\":\"string\",\"description\":\"Everyday English name.\"},\"scientific_name\":{\"type\":\"string\",\"description\":\"Latin binomial. Use 'uncertain' if not confident to species level.\"},\"genus\":{\"type\":\"string\"},\"family\":{\"type\":\"string\"},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"diagnostic_features\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"2-4 features VISIBLE IN THIS PHOTO that support this ID.\"}}}}}}",
+            "system_prompt": "You are a careful botanist doing visual plant identification.\n\nRules you must follow:\n1. Describe only what is VISIBLE. Never infer from context or background.\n2. Work from common name to Latin binomial, not the reverse.\n3. Offer up to 3 candidates, most likely first. If two species are genuinely\n   hard to separate from this photo, include both rather than guessing one.\n4. Never invent a species. If you cannot get to species level, set\n   scientific_name to \"uncertain\" and still give the genus and family you are\n   confident about. A correct genus is far more useful than a fabricated species.\n5. Calibrate honestly. \"high\" means you would stake your reputation on it.\n   Most real photos deserve \"medium\" at best.\n6. diagnostic_features must cite features actually in the frame (leaf shape,\n   margin, venation, arrangement, habit, flower structure, bark, sap).\n7. If the subject is not a plant, set is_plant false and return no candidates.\n8. Judge the photo itself. Blur, distance, occlusion and low light cause more\n   wrong answers than taxonomy does, so flag them honestly in image_quality.",
+            "image_url": "<uploaded-image-url>",
+            "model": "gpt-5.1",
+            "temperature": 0.1,
+            "max_tokens": 1500
+          }
+        }
+      ]
+    },
+    "backend_deadline_s": 50.0
+  },
+  "budget_usd": 3.0,
+  "reserve_usd": 0.1,
+  "timing": "Backend normalization, upload and prediction; excludes taxonomy scoring and mobile transport"
+}
